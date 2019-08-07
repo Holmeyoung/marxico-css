@@ -27,3 +27,5 @@ Download the `marxico-css` , copy the content and paste in `setting --> style --
 
 
 **New style**
+
+![](https://raw.githubusercontent.com/Holmeyoung/marxico-css/master/new_style.png)
