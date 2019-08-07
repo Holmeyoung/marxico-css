@@ -1,0 +1,247 @@
+/* Original highlight.js style */
+.hljs {
+    display: block;
+    overflow-x: auto;
+    padding: 0.5em;
+    background: #f1f3f1;
+    color: black;
+}
+
+.hljs-comment,
+.hljs-quote {
+    color: #800;
+}
+
+.hljs-keyword,
+.hljs-selector-tag,
+.hljs-section,
+.hljs-title,
+.hljs-name {
+    color: #008;
+}
+
+.hljs-variable,
+.hljs-template-variable {
+    color: #660;
+}
+
+.hljs-string,
+.hljs-selector-attr,
+.hljs-selector-pseudo,
+.hljs-regexp {
+    color: #080;
+}
+
+.hljs-literal,
+.hljs-symbol,
+.hljs-bullet,
+.hljs-meta,
+.hljs-number,
+.hljs-link {
+    color: #066;
+}
+
+.hljs-title,
+.hljs-doctag,
+.hljs-type,
+.hljs-attr,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-params {
+    color: #606;
+}
+
+.hljs-attribute,
+.hljs-subst {
+    color: #000;
+}
+
+.hljs-formula {
+    background-color: #eee;
+    font-style: italic;
+}
+
+.hljs-selector-id,
+.hljs-selector-class {
+    color: #9B703F
+}
+
+.hljs-addition {
+    background-color: #baeeba;
+}
+
+.hljs-deletion {
+    background-color: #ffc8bd;
+}
+
+.hljs-doctag,
+.hljs-strong {
+    font-weight: bold;
+}
+
+.hljs-emphasis {
+    font-style: italic;
+}
+
+html { font-size: 100%; overflow-y: scroll; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
+
+body {
+    color:#2c3e50;
+    font-family:Georgia, Palatino, 'Palatino Linotype', Times, 'Times New Roman', serif;
+    font-size:16px;
+    line-height:1.5em;
+    padding:1em;
+    margin:auto;
+    max-width:64em;
+    background:#f9f9f5;
+}
+
+h1 {
+    font-size: 2.2em;
+    font-weight: 700;
+    line-height: 1.1;
+    color:#000000;
+    padding-top: 16px;
+    margin-bottom: 4px;
+}
+
+h2, h3, h4, h5, h6 {
+    line-height: 1.5em;
+    margin-top: 2.2em;
+    margin-bottom: 4px;
+}
+
+h2 {
+    font-size: 1.4em;
+    margin: 40px 10px 20px 0;
+    padding-left: 9px;
+    border-left: 6px solid #ff7e79;
+    font-weight: 700;
+    line-height: 1.4;
+}
+
+h3 {
+    border-bottom: 2px solid #CCCCCC;
+    font-weight: 700;
+    font-size: 1.2em;
+    line-height: 1.4;
+    margin: 10px 0 5px;
+    padding-top: 10px;
+}
+
+h4 {
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 1.1em;
+    line-height: 1.4;
+    margin: 10px 0 5px;
+    padding-top: 10px
+}
+
+h5, h6 {
+    font-size: .9em;
+}
+
+h5 {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+h6 {
+    font-weight: normal;
+    color: #AAA;
+}
+
+hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 0.2em;
+    border: 0;
+    color: #CCCCCC;
+    background-color: #CCCCCC;
+}
+
+/* set `` style */
+code {
+    font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
+    padding: 0 0.2em;
+    line-height: 1;
+    color: #2c3e50;
+    background-color:#d6dbdf;
+    font-size: .95em;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+}
+
+/* set paragraph style */
+p {
+    margin: 0 0 20px;
+    padding: 0;
+    line-height: 1.8;
+}
+
+/* set ``` style */
+pre {
+    margin: 0 0 10px;
+    font-size: 16px;
+    word-break: break-all;
+    word-wrap: break-word;
+    border-radius: 4px;
+    white-space: pre-wrap;
+    display: block;
+    background: #e9edec;
+    padding: 0px 0px 0px 45px;
+    border: none;
+    margin-bottom: 25px;
+    color: #666;
+    font-family: Courier, sans-serif;
+    overflow: auto;
+}
+
+/* set > style */
+blockquote {
+    font-size: 1em;
+    font-style: normal;
+    position: relative;
+    text-indent: 0;
+    border: none;
+    color: #666666;
+    background-color: #f1f3f1;
+    padding-left: 1.5em;
+    border-left: 0.75em #d6dbdf solid;
+}
+
+ul, ol, dl, li, table {
+    margin: 15px 0;
+}
+  
+a{ color: #0645ad; text-decoration:none;}
+a:visited{ color: #0b0080; }
+a:hover{ color: #06e; }
+a:active{ color:#faa700; }
+a:focus{ outline: thin dotted; }
+a:hover, a:active{ outline: 0; }
+
+::-moz-selection{background:rgba(255,255,0,0.3);color:#000}
+::selection{background:rgba(255,255,0,0.3);color:#000}
+
+a::-moz-selection{background:rgba(255,255,0,0.3);color:#0645ad}
+a::selection{background:rgba(255,255,0,0.3);color:#0645ad}
+
+ul, ol { margin: 1em 0; padding: 0 0 0 2em; }
+li p:last-child { margin:0 }
+dd { margin: 0 0 0 2em; }
+
+img { border: 0; -ms-interpolation-mode: bicubic; vertical-align: middle; max-width:100%;}
+
+table { border-collapse: collapse; border-spacing: 0; }
+td { vertical-align: top; }
+
+@media only screen and (min-width: 480px) {
+    body{font-size:14px;}
+}
+
+@media only screen and (min-width: 768px) {
+    body{font-size:16px;}
+}

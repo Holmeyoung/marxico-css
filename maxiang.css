@@ -3,101 +3,24 @@
     display: block;
     overflow-x: auto;
     padding: 0.5em;
-    background: #f1f3f1;
+    background: #f6f8fa;
     color: black;
 }
 
-.hljs-comment,
-.hljs-quote {
-    color: #800;
-}
-
-.hljs-keyword,
-.hljs-selector-tag,
-.hljs-section,
-.hljs-title,
-.hljs-name {
-    color: #008;
-}
-
-.hljs-variable,
-.hljs-template-variable {
-    color: #660;
-}
-
-.hljs-string,
-.hljs-selector-attr,
-.hljs-selector-pseudo,
-.hljs-regexp {
-    color: #080;
-}
-
-.hljs-literal,
-.hljs-symbol,
-.hljs-bullet,
-.hljs-meta,
-.hljs-number,
-.hljs-link {
-    color: #066;
-}
-
-.hljs-title,
-.hljs-doctag,
-.hljs-type,
-.hljs-attr,
-.hljs-built_in,
-.hljs-builtin-name,
-.hljs-params {
-    color: #606;
-}
-
-.hljs-attribute,
-.hljs-subst {
-    color: #000;
-}
-
-.hljs-formula {
-    background-color: #eee;
-    font-style: italic;
-}
-
-.hljs-selector-id,
-.hljs-selector-class {
-    color: #9B703F
-}
-
-.hljs-addition {
-    background-color: #baeeba;
-}
-
-.hljs-deletion {
-    background-color: #ffc8bd;
-}
-
-.hljs-doctag,
-.hljs-strong {
-    font-weight: bold;
-}
-
-.hljs-emphasis {
-    font-style: italic;
-}
-
-html { font-size: 100%; overflow-y: scroll; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
 
 body {
-    color:#2c3e50;
-    font-family:Georgia, Palatino, 'Palatino Linotype', Times, 'Times New Roman', serif;
-    font-size:16px;
-    line-height:1.5em;
-    padding:1em;
-    margin:auto;
-    max-width:64em;
-    background:#f9f9f5;
+    color: #24292e;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;
+    font-size: 16px;
+    line-height: 1.5em;
+    padding: 1em;
+    margin: auto;
+    max-width: 64em;
+    background: #ffffff;
 }
 
 h1 {
-    font-size: 2.2em;
+    font-size: 2em;
     font-weight: 700;
     line-height: 1.1;
     color:#000000;
@@ -115,7 +38,7 @@ h2 {
     font-size: 1.4em;
     margin: 40px 10px 20px 0;
     padding-left: 9px;
-    border-left: 6px solid #ff7e79;
+    border-left: 6px solid #a6e6ce;
     font-weight: 700;
     line-height: 1.4;
 }
@@ -152,22 +75,12 @@ h6 {
     color: #AAA;
 }
 
-hr {
-    margin-top: 20px;
-    margin-bottom: 20px;
-    height: 0.2em;
-    border: 0;
-    color: #CCCCCC;
-    background-color: #CCCCCC;
-}
 
 /* set `` style */
 code {
-    font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
+    font-family: SFMono-Regular,Consolas,Liberation Mono,Menlo,Courier,monospace;
     padding: 0 0.2em;
     line-height: 1;
-    color: #2c3e50;
-    background-color:#d6dbdf;
     font-size: .95em;
     border-radius: 3px;
     -moz-border-radius: 3px;
@@ -176,72 +89,116 @@ code {
 
 /* set paragraph style */
 p {
-    margin: 0 0 20px;
-    padding: 0;
     line-height: 1.8;
 }
 
 /* set ``` style */
 pre {
-    margin: 0 0 10px;
     font-size: 16px;
-    word-break: break-all;
-    word-wrap: break-word;
-    border-radius: 4px;
-    white-space: pre-wrap;
-    display: block;
-    background: #e9edec;
-    padding: 0px 0px 0px 45px;
-    border: none;
-    margin-bottom: 25px;
     color: #666;
-    font-family: Courier, sans-serif;
-    overflow: auto;
+    font-family: "Courier New", sans-serif, monospace, Consolas;
 }
 
 /* set > style */
 blockquote {
-    font-size: 1em;
-    font-style: normal;
-    position: relative;
-    text-indent: 0;
-    border: none;
-    color: #666666;
-    background-color: #f1f3f1;
-    padding-left: 1.5em;
-    border-left: 0.75em #d6dbdf solid;
+    color: #6a737d;
+    background-color: #f6f8fa;
+    font-family: "Courier New", monospace, Consolas;
 }
 
-ul, ol, dl, li, table {
-    margin: 15px 0;
+/* set ** style */
+strong {
+    font-family: Consolas, "Courier New", monospace;
+    padding: 0 0.2em;
+    line-height: 1;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
 }
-  
-a{ color: #0645ad; text-decoration:none;}
-a:visited{ color: #0b0080; }
-a:hover{ color: #06e; }
-a:active{ color:#faa700; }
-a:focus{ outline: thin dotted; }
-a:hover, a:active{ outline: 0; }
+/* ------------------------------------ table ------------------------------------ */
+/* --------------样式调整-------------- */
+/* 基础概念
+* <table>: 表格
+* <thead>: table header 表头区
+* <th>: table headings 表头单元格内容
+* <tbody>: table body 表格内容区
+* <tr>: table row 表行
+* <td>: table data 单元格内容
+*/
 
-::-moz-selection{background:rgba(255,255,0,0.3);color:#000}
-::selection{background:rgba(255,255,0,0.3);color:#000}
-
-a::-moz-selection{background:rgba(255,255,0,0.3);color:#0645ad}
-a::selection{background:rgba(255,255,0,0.3);color:#0645ad}
-
-ul, ol { margin: 1em 0; padding: 0 0 0 2em; }
-li p:last-child { margin:0 }
-dd { margin: 0 0 0 2em; }
-
-img { border: 0; -ms-interpolation-mode: bicubic; vertical-align: middle; max-width:100%;}
-
-table { border-collapse: collapse; border-spacing: 0; }
-td { vertical-align: top; }
-
-@media only screen and (min-width: 480px) {
-    body{font-size:14px;}
+/* 基本样式 */
+table {
+    width: 100%; /*表格宽度*/
+    max-width: 65em; /*表格最大宽度，避免表格过宽*/
+    border: 1px solid #dedede; /*表格外边框设置*/
+    margin: 15px auto; /*外边距*/
+    border-collapse: collapse; /*使用单一线条的边框*/
+    empty-cells: show; /*单元格无内容依旧绘制边框*/
+}
+table th,
+table td {
+    height: 35px; /*统一每一行的默认高度*/
+    border: 1px solid #dedede; /*内部边框样式*/
+    padding: 0 10px; /*内边距*/
 }
 
-@media only screen and (min-width: 768px) {
-    body{font-size:16px;}
+/* 表头样式 */
+table th {
+    font-weight: bold; /*加粗*/
+    text-align: center !important; /*内容居中，加上 !important 避免被 Markdown 样式覆盖*/
+    background: rgba(158,188,226,0.2); /*背景色*/
 }
+
+/*
+* 隔行变色
+* 使用选择器选取复数行设置背景色。一般 Markdown 表格编译后都有 <tbody> 包裹内容，那下面就相当于从表格第二行开始计数
+
+table tbody tr:nth-child(2n) {
+    background: rgba(158,188,226,0.12); 
+}
+*/
+
+/*
+* 悬浮变色
+* 鼠标悬浮时该行改变背景色
+*/
+table tr:hover {
+    background: #efefef; 
+}
+
+/* --------------------------自适应优化-------------------------- */
+/*
+* 表头不换行
+* 设置表头单元格内容不换行，这样可以通过表头控制该列的最小宽度，避免浏览器窗口缩小时内容被压缩得太紧
+*/
+table th {
+    white-space: nowrap; /*表头内容强制在一行显示*/
+}
+
+/*
+* 首列不换行
+* 表格第一列单元格内容不换行，多数情况下表格首列不应该被压缩换行
+*/
+table td:nth-child(1) {
+    white-space: nowrap; 
+}
+
+/*
+* 格滚动条
+* 添加 JavaScript 代码，用一个 <div> 把表格包裹起来，父元素宽度不足时显示横向滚动条，避免表格撑破布局
+*/
+[].slice.call(document.querySelectorAll('table')).forEach(function(el){
+    var wrapper = document.createElement('div');
+    wrapper.className = 'table-area';
+    el.parentNode.insertBefore(wrapper, el);
+    el.parentNode.removeChild(el);
+    wrapper.appendChild(el);
+})
+
+/* jQuery */
+$("table").wrap("<div class='table-area'></div>");
+
+.table-area {
+    overflow: auto;
+}
+/* ------------------------------------ table end ------------------------------------ */
