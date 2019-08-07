@@ -24,3 +24,7 @@ Download the `marxico-css` , copy the content and paste in `setting --> style --
 
 ![](https://raw.githubusercontent.com/Holmeyoung/marxico-css/master/in_evernote.png)
 
+
+
+**New style**
+
