@@ -37,8 +37,7 @@ h2, h3, h4, h5, h6 {
 h2 {
     font-size: 1.4em;
     margin: 40px 10px 20px 0;
-    padding-left: 9px;
-    border-left: 6px solid #a6e6ce;
+    border-bottom: 2px solid #ff5900;
     font-weight: 700;
     line-height: 1.4;
 }
